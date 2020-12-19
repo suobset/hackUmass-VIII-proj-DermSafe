@@ -70,6 +70,12 @@ public class MainActivity extends AppCompatActivity {
         imageViewCapturedPhoto = findViewById(R.id.imageViewPhoto);
         Button loadImage = findViewById(R.id.loadimage);
 
+        Button takePic = findViewById(R.id.buttonPhoto);
+
+//        takePic.setOnClickListener(
+//                takePhoto();
+//        );
+
         //Click Listener for the "Load Image" buttong
         //Whenever the button is clicked, redirect the user to the Gallery to select the image
         loadImage.setOnClickListener(new Button.OnClickListener() {
