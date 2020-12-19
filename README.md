@@ -16,15 +16,21 @@ The original idea was forked from ________________
 
 and we have used that basic detector as a canvas to create an all-in-one health application, complete with features such as:
 
-Google Maps Integration
-References and Resources
-A complete UI/UX overhaul
-Emergency Contacting features
+->Google Maps Integration
+
+->References and Resources
+
+->A complete UI/UX overhaul
+
+->Emergency Contacting features
 
 ## TODO:
 1) Integrate Maps
+
 2) Fix UI
+
 3) Contact Features
+
 4) Elaborate upon relevant documentation
 
 ## ReadMe from the original rep (that covered only the skin detector part):
