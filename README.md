@@ -1,4 +1,32 @@
 # Skin-Cancer-Detector-Android
+## Overview:
+This Repo contains the project done by:
+
+Nikhil Jain
+Kushagra Srivastava
+Nhan Ton
+Rebecca Wang
+
+For the 8th HackUmass hackathon. 
+
+The original idea was forked from ________________
+
+and we have used that basic detector as a canvas to create an all-in-one health application, complete with features such as:
+
+Google Maps Integration
+References and Resources
+A complete UI/UX overhaul
+Emergency Contacting features
+
+## TODO:
+1) Integrate Maps
+2) Fix UI
+3) Contact Features
+4) Elaborate upon relevant documentation
+
+## ReadMe from the original rep (that covered only the skin detector part):
+
+
 Porting my previous Skin Cancer Detector developed in Python using Tensorflow and Keras over to Android. The application lets the user to use an existing image from a gallery or take a photo in real time. The program will then display its prediction.  
 
 Skin Cancer Detector achieved a total accuracy of 87% after being trained on ISIC, PH2, and Complete MedNode online databases.  
