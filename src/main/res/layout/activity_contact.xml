@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.m_rau.skincancerdetector.ContactActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="351dp"
+        android:layout_height="27dp"
+        android:layout_marginEnd="60dp"
+        android:text="PUT YOUR INFO BELOW AND WE WILL CONTACT YOU!"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textView"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="-198dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/textView"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="-110dp"
+        android:ems="10"
+        android:hint="Enter Full Name"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/notes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/emailAddress"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="-159dp"
+        android:ems="10"
+        android:hint="Enter details"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/emailAddress"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="-356dp"
+        android:onClick="submitContact"
+        android:text="Submit"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPostalAddress" />
+</RelativeLayout>

@@ -130,6 +130,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void contactClick(View view){
+
+        Intent newIntent = new Intent(this, ContactActivity.class);
+        startActivity(newIntent);
+
+    }
+
 
 
     //Request the permission when the feature is used for the first time

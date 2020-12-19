@@ -1,83 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.m_rau.skincancerdetector.ResourcesActivity">
 
-    <EditText
+    <Button
         android:id="@+id/editTextTextPersonName"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
         android:text="@string/for_more_references_about_skin_cancer_check_these_websites_out"
         android:textSize="13.5sp"
         tools:layout_editor_absoluteX="6dp"
         tools:layout_editor_absoluteY="5dp" />
 
-    <EditText
+    <Button
         android:id="@+id/editTextTextPersonName2"
         android:layout_width="match_parent"
         android:layout_height="46dp"
         android:layout_alignBottom="@id/editTextTextPersonName"
         android:layout_marginBottom="-273dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:onClick="onCLickLink"
         android:text="@string/https_www_mayoclinic_org_diseases_conditions_skin_cancer_symptoms_causes_syc_20377605"
+        android:textAllCaps="false"
         android:textSize="10sp"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="112dp" />
 
-    <EditText
+    <Button
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="match_parent"
         android:layout_height="38dp"
         android:layout_alignBottom="@id/editTextTextPersonName2"
         android:layout_marginBottom="-66dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:onClick="onCLickLink2"
         android:text="https://www.webmd.com/melanoma-skin-cancer/ss/skin-cancer-and-skin-lesions-overview"
+        android:textAllCaps="false"
         android:textSize="10sp"
         tools:layout_editor_absoluteX="-1dp"
         tools:layout_editor_absoluteY="188dp" />
 
-    <EditText
+    <Button
         android:id="@+id/editTextTextPersonName4"
         android:layout_width="406dp"
         android:layout_height="39dp"
         android:layout_alignBottom="@id/editTextTextPersonName3"
         android:layout_marginBottom="-85dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:onClick="onCLickLink3"
         android:text="https://www.skincancer.org/"
+        android:textAllCaps="false"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="254dp" />
 
-    <EditText
+    <Button
         android:id="@+id/editTextTextPersonName5"
         android:layout_width="406dp"
         android:layout_height="39dp"
         android:layout_alignBottom="@id/editTextTextPersonName4"
         android:layout_marginBottom="-85dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:onClick="onCLickLink4"
         android:text="https://www.cancer.org/cancer/skin-cancer/skin-cancer-image-gallery.html"
+        android:textAllCaps="false"
         android:textSize="10sp"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="316dp" />
 
-    <EditText
+    <Button
         android:id="@+id/editTextTextPersonName6"
         android:layout_width="405dp"
         android:layout_height="41dp"
         android:layout_alignBottom="@id/editTextTextPersonName5"
         android:layout_marginBottom="-70dp"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:onClick="onCLickLink5"
         android:text="https://www.aad.org/skin-cancer-common-types"
+        android:textAllCaps="false"
         android:textSize="10sp"
         tools:layout_editor_absoluteX="2dp"
         tools:layout_editor_absoluteY="374dp" />
