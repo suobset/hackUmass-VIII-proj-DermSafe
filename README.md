@@ -2,9 +2,12 @@
 ## Overview:
 This Repo contains the project done by:
 
-Nikhil Jain
+Nikhil Jain 
+
 Kushagra Srivastava
+
 Nhan Ton
+
 Rebecca Wang
 
 For the 8th HackUmass hackathon. 
