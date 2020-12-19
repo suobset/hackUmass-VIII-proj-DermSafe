@@ -1,5 +1,10 @@
-# Skin-Cancer-Detector-Android
+Disclaimer: The project is originally forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, where only a very basic Skin Cancer Detector had been initially created. Our team used that project as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application. 
+
+# DermSafe
 ## Overview:
+
+DermSafe helps people with various skin-related health diseases realize the same and act upon it as soon as possible. Users can either use their phone's camera to click pictures, or upload photos of various different kinds of anomalies that occur on their skin on the app to know their cause. Users also get access to a wide variety of resources and contact information that would help them obtain the relevant treatment(s), as well as keep them well informed about their ailments and various preventive measures they can take.   
+
 This Repo contains the project done by:
 
 Nikhil Jain 
@@ -12,9 +17,7 @@ Rebecca Wang
 
 For the 8th HackUmass hackathon. 
 
-The original idea was forked from ________________
-
-and we have used that basic detector as a canvas to create an all-in-one health application, complete with features such as:
+The original idea was forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, and we have used that basic detector as a canvas to create an all-in-one health application, complete with features such as:
 
 ->Google Maps Integration
 
