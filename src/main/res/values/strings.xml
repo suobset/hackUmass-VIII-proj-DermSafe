@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Skin CancerDetector</string>
+    <string name="image">Image</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="load_image">Load Image</string>
+    <string name="button">Button</string>
+    <string name="bottom_right_button">Bottom Right Button</string>
+    <string name="references">References</string>
+    <string name="for_more_references_about_skin_cancer_check_these_websites_out">For more references about skin cancer check these websites out</string>
+    <string name="https_www_mayoclinic_org_diseases_conditions_skin_cancer_symptoms_causes_syc_20377605">https://www.mayoclinic.org/diseases-conditions/skin-cancer/symptoms-causes/syc-20377605</string>
 </resources>

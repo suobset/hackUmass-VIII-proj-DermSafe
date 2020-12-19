@@ -11,25 +11,24 @@
         android:id="@+id/imageViewPhoto"
         android:layout_width="match_parent"
         android:layout_height="400dp"
-        android:contentDescription="Image"/>
+        android:contentDescription="@string/image"/>
 
     <Button
         android:id="@+id/buttonPhoto"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="69dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
         android:background="@color/colorPrimary"
         android:onClick="checkPermissions"
-        android:text="Take Photo"
+        android:text="@string/take_photo"
         android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/loadimage"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Load Image"
-        />
+        android:text="@string/load_image" />
 
     <TextView
         android:id="@+id/prediction"
@@ -39,5 +38,18 @@
         android:layout_centerHorizontal="true"
         android:textAlignment="center"
         android:text="" />
+
+    <Button
+        android:id="@+id/referenceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="0dp"
+        android:onClick="onClickReference"
+        android:text="@string/references"
+        android:textAllCaps="true"
+        android:textSize="12sp" />
 
 </RelativeLayout>

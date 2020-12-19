@@ -24,7 +24,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import android.view.View;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -114,6 +114,13 @@ public class MainActivity extends AppCompatActivity {
             requestPermissions(new String[] {Manifest.permission.WRITE_EXTERNAL_STORAGE}, EXTERNAL_STORAGE_REQUEST_RESULT);
 
         }
+
+    }
+
+    public void onClickReference(View view){
+
+        Intent newIntent = new Intent(this, ResourcesActivity.class);
+        startActivity(newIntent);
 
     }
 
