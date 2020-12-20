@@ -11,7 +11,8 @@ As time was a major constraint for this event, this particular application only 
 1. [Overview](#Overview)
 2. [Background](#Background)
 3. [Additional Features](#features)
-3. [How it Works](#how-it-works)
+4. [How it Works](#how-it-works)
+5. [How to Use](#using)
 
 ## Background: <a name="Background"></a>
 
@@ -31,15 +32,28 @@ For the 8th HackUmass hackathon.
 
 The original idea was forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, and we have used that basic detector as a canvas to create an all-in-one health application, complete with features such as:
 
-->Google Maps Integration: Helps the user locate nearby hospitals and doctors
-
 ->References and Resources: Helps the user learn more about various Skin Diseases (at the time, focused on Skin Cancer)
 
 ->A complete UI/UX overhaul: Helps the user navigate the App with ease
 
 ->Emergency Contacting features: Helps the user get in contact with various individuals in order to get help whenever needed
 
+-> Pictures and other sources to help people judge the severity of their ailment
+
 ## How it Works <a name="how-it-works"></a>
 
 DermSafe uses TensorFlow and Keras in order to compare the User's uploaded photos to it's own database, from which it gives feedback on the type of the skin disease that the user is currently suffering from. Currently, the model is trained on very high quality images of various different types of skin cancer, and can therefore give almost accurate feedback on the kind of skin cancer that the user may be suffering with.
+
+## How to Use <a name="usage"></a>
+
+Upon installing the appliction on your Android device, you will be greeted with a home screen:
+![Alt text](/relative/path/to/img.jpg?raw=true "71JvslYorPL._AC_SL1500_.jpg")
+
+-> Load image: Lets you select an image from your gallery to upload to the app to judge. This is the main part of the app: it compares the uploaded picture to it's own trained dataset and determines the type of Skin Cancer the person is suffering from.
+
+-> References: Provides information from various trusted sources 
+
+-> Contact: Users can leave their information in case they want to reach out to a medical professional for any concerns.
+
+-> Pictures: Provides different pictures for users to judge how severe their case is. 
 
