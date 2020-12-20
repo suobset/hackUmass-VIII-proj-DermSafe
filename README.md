@@ -1,4 +1,4 @@
-Disclaimer: The project is originally forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, where only a very basic Skin Cancer Detector had been initially created. Our team used that project as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application. 
+Disclaimer: The project is originally forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, where only a very basic Skin Cancer Detector had been initially created. Our team repaired the project, and used it as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application. 
 
 # DermSafe
 ## Overview: <a name="Overview"></a>
@@ -47,7 +47,8 @@ DermSafe uses TensorFlow and Keras in order to compare the User's uploaded photo
 ## How to Use <a name="usage"></a>
 
 Upon installing the appliction on your Android device, you will be greeted with a home screen:
-![Alt text](hackUmass-VIII-proj-DermSafe/71JvslYorPL._AC_SL1500_.jpg)
+
+![Alt text](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe/blob/master/71JvslYorPL._AC_SL1500_.jpg)
 
 -> Load image: Lets you select an image from your gallery to upload to the app to judge. This is the main part of the app: it compares the uploaded picture to it's own trained dataset and determines the type of Skin Cancer the person is suffering from.
 
@@ -57,3 +58,59 @@ Upon installing the appliction on your Android device, you will be greeted with 
 
 -> Pictures: Provides different pictures for users to judge how severe their case is. 
 
+#### Load Images: 
+
+Clicking Load Images will direct the user to this screen: 
+
+![Alt text](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe/blob/master/scrn2.jpg)
+
+Where the users can choose their photos to be uploaded to the app; upon which the app will predict the type of Skin Cancer they have.
+
+Users can also use their phone's camera to take a picture and upload it to the app from this screen. 
+
+#### References: 
+
+Clicking References will allow users to browse various trusted sources and get more information on Skin Cancer.
+
+![Alt text](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe/blob/master/scrn3.jpg)
+
+We intend to update the sources regularly with up-to-date information always at hand. 
+
+#### Contact:
+
+Clicking Contact will lead the user to this page: 
+
+![Alt text](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe/blob/master/scrn4.jpg)
+
+Users can fill out a form and be directly conncted with a Medical Professional to get help with their questions and queries. 
+
+#### Pictures: 
+
+Clicking on Pictures will lead users to a page where they can see various examples of different Skin Cancer patients, and determine the severity of their ailments.
+
+## Contribute:
+
+We intend to release this project under the standard open-source MIT License, and anyone wishing to contribute to this project can do so via these links:
+
+1.[Source Code: GitHub](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe)
+2.[Issue Tracker](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe/issues)
+
+## Future Improvements:
+
+We plan to incorporate various future improvements in this Android Application in the future, some of which include: 
+
+1. Google Maps Integration to direct Users to the nearest Hospital in case of requirement.
+
+2. Emergency Contact Feature to notify the friends and family of the User in case of emergencies.
+
+3. Incorporating a more fluid UI across the entire app, as well as porting it over to various other operating systems. 
+
+4. Including a User-Account setup through which users can save their data on the cloud. 
+
+## Support: 
+
+If you are having issues with the software or any part of the same, feel free to utilize the GitHub Issue-Tracker. Alternatively, you can also reach out to us through my email: ksrivastava@umass.edu
+
+## License:
+
+This project is licensed under the MIT License
