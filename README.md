@@ -24,13 +24,13 @@ WARNING: You should not be solely relying on the predictions of the program. If 
 
 This Repo contains the project done by:
 
-Nikhil Jain (https://github.com/jainnikhil1005)
+Nikhil Jain (https://github.com/jainnikhil1005 | jain.nikhil1005@gmail.com)
 
-Kushagra Srivastava (https://github.com/k-u-sh)
+Kushagra Srivastava (https://github.com/k-u-sh | ksrivastava@umass.edu)
 
-Nhan Ton (https://github.com/tonducnhan)
+Nhan Ton (https://github.com/tonducnhan | nhan.ton@culver.org)
 
-Rebecca Wang (https://github.com/rebeccawang06)
+Rebecca Wang (https://github.com/rebeccawang06 | e.rebeccawang@gmail.com)
 
 For the 8th HackUmass hackathon. 
 
@@ -119,7 +119,7 @@ We plan to incorporate various future improvements in this Android Application i
 
 ## Support: <a name="support"></a>
 
-If you are having issues with the software or any part of the same, feel free to utilize the GitHub Issue-Tracker. Alternatively, you can also reach out to us through my email: ksrivastava@umass.edu
+If you are having issues with the software or any part of the same, feel free to utilize the GitHub Issue-Tracker. Alternatively, you can also reach out to us through our respective emails listed under [Section 2: Background](#Background) of this document.
 
 ## License: <a name="license"></a>
 
