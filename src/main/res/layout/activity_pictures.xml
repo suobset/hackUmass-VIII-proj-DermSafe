@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="329dp"
+        android:layout_height="281dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/screen_shot_2020_12_19_at_4_08_04_pm" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="50000dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/screen_shot_2020_12_19_at_4_11_00_pm" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-482dp"
+        app:srcCompat="@drawable/screen_shot_2020_12_19_at_4_08_56_pm" />
+</RelativeLayout>

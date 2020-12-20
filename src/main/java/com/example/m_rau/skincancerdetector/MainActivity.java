@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         imageViewCapturedPhoto = findViewById(R.id.imageViewPhoto);
         Button loadImage = findViewById(R.id.loadimage);
 
-        Button takePic = findViewById(R.id.buttonPhoto);
+        Button takePic = findViewById(R.id.skinPics);
 
 //        takePic.setOnClickListener(
 //                takePhoto();
@@ -133,6 +133,13 @@ public class MainActivity extends AppCompatActivity {
     public void contactClick(View view){
 
         Intent newIntent = new Intent(this, ContactActivity.class);
+        startActivity(newIntent);
+
+    }
+
+    public void clickPics (View view){
+
+        Intent newIntent = new Intent(this, PicturesActivity.class);
         startActivity(newIntent);
 
     }

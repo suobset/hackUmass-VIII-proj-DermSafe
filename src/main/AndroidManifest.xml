@@ -26,6 +26,9 @@
         <activity
             android:name=".ContactActivity">
         </activity>
+        <activity
+            android:name=".PicturesActivity">
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

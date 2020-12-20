@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
     tools:context="com.example.m_rau.skincancerdetector.MainActivity">
+
+    <Button
+        android:id="@+id/skinPics"
+        android:layout_width="105dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="9dp"
+        android:onClick="clickPics"
+        android:text="Pictures"
+        android:textAllCaps="true"
+        android:textSize="12sp" />
 
     <ImageView
         android:id="@+id/imageViewPhoto"
@@ -14,20 +28,13 @@
         android:contentDescription="@string/image"/>
 
     <Button
-        android:id="@+id/buttonPhoto"
-        android:layout_width="wrap_content"
-        android:layout_height="69dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="1dp"
-        android:background="@color/colorPrimary"
-        android:onClick="checkPermissions"
-        android:text="@string/take_photo"
-        android:textColor="@android:color/white" />
-
-    <Button
         android:id="@+id/loadimage"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
         android:text="@string/load_image" />
 
     <TextView
@@ -45,8 +52,8 @@
         android:layout_height="70dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="3dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="10dp"
         android:onClick="onClickReference"
         android:text="@string/references"
         android:textAllCaps="true"
@@ -58,12 +65,18 @@
         android:layout_height="72dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="100dp"
-        android:layout_marginBottom="-1dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="9dp"
         android:onClick="contactClick"
         android:text="contact"
         android:textAllCaps="true"
         android:textSize="12sp"
         tools:ignore="DuplicateIds" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="394dp"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/screen_shot_2020_12_19_at_12_41_38_pm" />
 
 </RelativeLayout>
