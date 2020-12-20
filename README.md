@@ -13,6 +13,10 @@ As time was a major constraint for this event, this particular application only 
 3. [Additional Features](#features)
 4. [How it Works](#how-it-works)
 5. [How to Use](#using)
+6. [Contribute](#contribute)
+7. [Future Improvements](#future)
+8. [Support](#support)
+9. [License](#license)
 
 ## Background: <a name="Background"></a>
 
@@ -88,14 +92,14 @@ Users can fill out a form and be directly conncted with a Medical Professional t
 
 Clicking on Pictures will lead users to a page where they can see various examples of different Skin Cancer patients, and determine the severity of their ailments.
 
-## Contribute:
+## Contribute: <a name="contribute"></a>
 
 We intend to release this project under the standard open-source MIT License, and anyone wishing to contribute to this project can do so via these links:
 
 1.[Source Code: GitHub](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe)
 2.[Issue Tracker](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe/issues)
 
-## Future Improvements:
+## Future Improvements: <a name="future"></a>
 
 We plan to incorporate various future improvements in this Android Application in the future, some of which include: 
 
@@ -107,10 +111,10 @@ We plan to incorporate various future improvements in this Android Application i
 
 4. Including a User-Account setup through which users can save their data on the cloud. 
 
-## Support: 
+## Support: <a name="support"></a>
 
 If you are having issues with the software or any part of the same, feel free to utilize the GitHub Issue-Tracker. Alternatively, you can also reach out to us through my email: ksrivastava@umass.edu
 
-## License:
+## License: <a name="license"></a>
 
 This project is licensed under the MIT License
