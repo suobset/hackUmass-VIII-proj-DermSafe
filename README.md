@@ -47,7 +47,7 @@ DermSafe uses TensorFlow and Keras in order to compare the User's uploaded photo
 ## How to Use <a name="usage"></a>
 
 Upon installing the appliction on your Android device, you will be greeted with a home screen:
-![Alt text](/relative/path/to/img.jpg?raw=true "71JvslYorPL._AC_SL1500_.jpg")
+![Alt text](hackUmass-VIII-proj-DermSafe/71JvslYorPL._AC_SL1500_.jpg)
 
 -> Load image: Lets you select an image from your gallery to upload to the app to judge. This is the main part of the app: it compares the uploaded picture to it's own trained dataset and determines the type of Skin Cancer the person is suffering from.
 
