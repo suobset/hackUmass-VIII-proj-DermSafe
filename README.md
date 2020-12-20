@@ -7,6 +7,8 @@ As time was a major constraint for this event, this particular application only 
 
 Disclaimer: The project is originally forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, where only a very basic Skin Cancer Detector had been initially created. Our team repaired the project, and used it as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application. 
 
+WARNING: You should not be solely relying on the predictions of the program. If you're concerned about skin cancer, do not hesitate to contact a professional dermatologist.
+
 ## Table of Contents:
 1. [Overview](#Overview)
 2. [Background](#Background)
