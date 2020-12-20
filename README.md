@@ -74,7 +74,7 @@ Where the users can choose their photos to be uploaded to the app; upon which th
 
 Users can also use their phone's camera to take a picture and upload it to the app from this screen. 
 
-When the user uploads the picture, the app would show them the result like this: 
+When the user uploads the picture, the app would show them the result like this (either no Skin Cancer, Benign Skin Cancer, or Malignant Skin Cancer): 
 
 ![Alt text](https://github.com/k-u-sh/hackUmass-VIII-proj-DermSafe/blob/master/scrn5.jpg)
 
