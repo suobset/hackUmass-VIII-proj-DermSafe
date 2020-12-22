@@ -5,9 +5,7 @@ DermSafe is an Android application that helps people with various skin-related h
 
 As time was a major constraint for this event, this particular application only focuses on Skin Cancer for the time being. However, we plan to train the model with various other datasets so that it can detect various different skin diseases, as well as help the user obtain proper treatment and care for the same. 
 
-Disclaimer: The project is originally forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, where only a very basic Skin Cancer Detector had been initially created. Our team repaired the project, and used it as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application. 
-
-WARNING: You should not be solely relying on the predictions of the program. If you're concerned about skin cancer, do not hesitate to contact a professional dermatologist.
+Disclaimer: The backend elements have been forked over from https://github.com/MRauf1/Skin-Cancer-Detector-Android, a very basic skin cancer detector. We have used it as a canvas to create an all-in-one health application. You should not be solely relying on the predictions of the program. If you're concerned about skin cancer, do not hesitate to contact a professional dermatologist.
 
 ## Table of Contents:
 1. [Overview](#Overview)
@@ -24,19 +22,19 @@ WARNING: You should not be solely relying on the predictions of the program. If 
 
 This Repo contains the project done by:
 
-Nikhil Jain (https://github.com/jainnikhil1005 | jain.nikhil1005@gmail.com)
+Nikhil Jain (https://github.com/jainnikhil1005)
 
 Kushagra Srivastava (https://github.com/k-u-sh | ksrivastava@umass.edu)
 
-Nhan Ton (https://github.com/tonducnhan | nhan.ton@culver.org)
+Nhan Ton (https://github.com/tonducnhan)
 
-Rebecca Wang (https://github.com/rebeccawang06 | e.rebeccawang@gmail.com)
+Rebecca Wang (https://github.com/rebeccawang06)
 
 For the 8th HackUmass hackathon. 
 
 ## Additional Features: <a name="features"></a>
 
-The original idea was forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, and we have used that basic detector as a canvas to create an all-in-one health application, complete with features such as:
+The main code was forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, a very basic skin cancer detector. We have used that basic detector as a canvas to create an all-in-one health application, complete with features such as:
 
 ->References and Resources: Helps the user learn more about various Skin Diseases (at the time, focused on Skin Cancer)
 
