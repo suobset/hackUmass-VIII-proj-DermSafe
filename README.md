@@ -10,13 +10,12 @@ Disclaimer: The backend elements have been forked over from https://github.com/M
 ## Table of Contents:
 1. [Overview](#Overview)
 2. [Background](#Background)
-3. [Additional Features](#features)
-4. [How it Works](#how-it-works)
-5. [How to Use](#using)
-6. [Contribute](#contribute)
-7. [Future Improvements](#future)
-8. [Support](#support)
-9. [License](#license)
+3. [How it Works](#how-it-works)
+4. [How to Use](#using)
+5. [Contribute](#contribute)
+6. [Future Improvements](#future)
+7. [Support](#support)
+8. [License](#license)
 
 ## Background: <a name="Background"></a>
 
@@ -31,18 +30,6 @@ Nhan Ton (https://github.com/tonducnhan)
 Rebecca Wang (https://github.com/rebeccawang06)
 
 For the 8th HackUmass hackathon. 
-
-## Additional Features: <a name="features"></a>
-
-The main code was forked from https://github.com/MRauf1/Skin-Cancer-Detector-Android, a very basic skin cancer detector. We have used that basic detector as a canvas to create an all-in-one health application, complete with features such as:
-
-->References and Resources: Helps the user learn more about various Skin Diseases (at the time, focused on Skin Cancer)
-
-->A complete UI/UX overhaul: Helps the user navigate the App with ease
-
-->Emergency Contacting features: Helps the user get in contact with various individuals in order to get help whenever needed
-
--> Pictures and other sources to help people judge the severity of their ailment
 
 ## How it Works <a name="how-it-works"></a>
 
