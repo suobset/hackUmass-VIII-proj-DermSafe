@@ -23,7 +23,7 @@ This Repo contains the project done by:
 
 Nikhil Jain (https://github.com/jainnikhil1005)
 
-Kushagra Srivastava (https://github.com/k-u-sh | ksrivastava@umass.edu)
+Kushagra Srivastava (https://github.com/suobset | ksrivastava@umass.edu)
 
 Nhan Ton (https://github.com/tonducnhan)
 
