@@ -31,7 +31,11 @@ For the 8th HackUmass hackathon.
 
 ## How it Works <a name="how-it-works"></a>
 
-DermSafe uses TensorFlow and Keras in order to compare the User's uploaded photos to it's own database, from which it gives feedback on the type of the skin disease that the user is currently suffering from. Currently, the model is trained on very high quality images of various different types of skin cancer, and can therefore give almost accurate feedback on the kind of skin cancer that the user may be suffering with.
+DermSafe uses TensorFlow and Keras in order to compare the User's uploaded photos to it's own database, from which it gives feedback on the type of the skin disease that the user is currently suffering from. Currently, the model is trained on very high quality images of various different types of skin cancer, and can therefore give almost accurate feedback on the kind of skin cancer that the user may be suffering with. 
+
+The model was trained on ~4,000 images from ISIC, PH2, and Complete MedNode online databases. The model has an accuracy of 87% as of now; however, since it was created using high quality images taken in various hospitals, daily use cases might differ. Please seek professional medical help if you have any queries.
+
+The application uses a Convolutional Neural Network to classify skin cancer either as benign or malignant. The model has 5 Conv, 5 ReLU activation, 5 Max Pooling, Flatten, 3 Dense (last one with Sigmoid), and 2 Dropout layers. 
 
 ## How to Use <a name="usage"></a>
 
