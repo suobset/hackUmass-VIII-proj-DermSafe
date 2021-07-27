@@ -29,6 +29,8 @@ Rebecca Wang (https://github.com/rebeccawang06)
 
 For the 8th HackUmass hackathon. 
 
+The project is originally forked from <a href="https://github.com/MRauf1/Skin-Cancer-Detector-Android">Skin Cancer Detector</a>, where only a very basic Skin Cancer Detector had been initially created. Our team repaired the project, and used it as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application.
+
 ## How it Works <a name="how-it-works"></a>
 
 DermSafe uses TensorFlow and Keras in order to compare the User's uploaded photos to it's own database, from which it gives feedback on the type of the skin disease that the user is currently suffering from. Currently, the model is trained on very high quality images of various different types of skin cancer, and can therefore give almost accurate feedback on the kind of skin cancer that the user may be suffering with. 
