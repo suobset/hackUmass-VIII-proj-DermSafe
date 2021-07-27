@@ -5,6 +5,8 @@ DermSafe is an Android application that helps people with various skin-related h
 
 As time was a major constraint for this event, this particular application only focuses on Skin Cancer for the time being. However, we plan to train the model with various other datasets so that it can detect various different skin diseases, as well as help the user obtain proper treatment and care for the same. 
 
+The project is originally forked from <a href="https://github.com/MRauf1/Skin-Cancer-Detector">this repository</a>, where a basic Skin Cancer Detector had been initially created. Our team repaired the project, and used it as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application.
+
 ## Table of Contents:
 1. [Overview](#Overview)
 2. [Background](#Background)
@@ -28,8 +30,6 @@ Nhan Ton (https://github.com/tonducnhan)
 Rebecca Wang (https://github.com/rebeccawang06)
 
 For the 8th HackUmass hackathon. 
-
-The project is originally forked from <a href="https://github.com/MRauf1/Skin-Cancer-Detector-Android">Skin Cancer Detector</a>, where only a very basic Skin Cancer Detector had been initially created. Our team repaired the project, and used it as our own canvas, heavily modified it, as well as added various features of our own to compliment and extend upon the original application.
 
 ## How it Works <a name="how-it-works"></a>
 
